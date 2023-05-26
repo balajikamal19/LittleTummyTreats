@@ -1,0 +1,79 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #fdf6f6;
+    background-size: cover ;
+}
+header{
+    display: flex;
+    padding: 0% 5%;
+    justify-content: space-between;
+    background-color: rgb(255 148 150);
+   
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.212) ;
+}
+@media (max-width:1281px){
+    body{background-size: contain;}
+}
+
+
+
+.first-nav {
+    background-color: rgb(255 148 150);
+    padding: 40px;
+    display: flex;
+    column-gap: 40px;
+
+}
+.first-nav :hover{
+    color: rgb(255, 67, 67);
+}
+.first-nav a{color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition-duration: 0.5s;
+    text-decoration: wavy;
+    font-family: 'GillSans-Light';
+}
+
+
+
+
+
+
+
+form {
+    width: 700;
+    height: 524;
+    background-color: rgb(255 255 255);
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 50px auto;
+}
+.love {
+    width: 100%;
+    font-size: 27px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+    background-color: rgb(245 235 235);
+    box-shadow: burlywood;
+}
+button {
+    width: 100%;
+    background-color: rgb(255 148 150);
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    font-weight: bolder;
+    font-size: larger;
+    transition-duration: 1s;
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+    
+
+}
